@@ -1,9 +1,11 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, Dimensions } from "react-native";
 
 const styles = StyleSheet.create({
   carContainer: {
-    height: "100%",
-    width: "100%",
+    height: Dimensions.get("window").height,
+    width: Dimensions.get("window").width,
+    border: 0,
+    alignSelf: "center",
   },
   titles: {
     marginTop: "30%",
