@@ -1,0 +1,2 @@
+to create expo react native app:
+npx create-react-native-app --template blank
